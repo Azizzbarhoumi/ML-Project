@@ -1,0 +1,14 @@
+Inspecting models...
+
+--- Model: lr (linear_regression_model.pkl) ---
+Type: <class 'dict'>
+Could not determine features
+
+--- Model: xgb (aziz_xgboost_model.pkl) ---
+Type: <class 'xgboost.sklearn.XGBRegressor'>
+Num Features: 29
+Error loading lightgbm_model.pkl: No module named 'lightgbm'
+
+--- Model: rf (yossriforest.pkl) ---
+Type: <class 'sklearn.ensemble._forest.RandomForestRegressor'>
+Features (7): ['crude oil ( WTI)', 'Heating Oil ', 'Conventional Gasoline', ' RBOB', 'Ultra-Low Sulfur CARB Diesel', 'Kerosene-Type Jet Fuel', 'Propane ']

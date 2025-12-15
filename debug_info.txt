@@ -1,0 +1,34 @@
+EXCEL COLUMNS:
+0: date
+1: crude oil ( WTI)
+2: Heating Oil 
+3: Conventional Gasoline
+4:  RBOB
+5: Ultra-Low Sulfur CARB Diesel
+6: Kerosene-Type Jet Fuel
+7: Propane 
+8: Natural GAZ
+9: DJIA
+10: NASDAQ
+11: sp500
+12: bitcoin
+13: USD FUTURE INDEX
+14: gold
+15: Silver
+16:  copper
+
+TAIL DATA (Last 5 rows):
+           date  ...   copper
+2564 2024-12-24  ...      NaN
+2565 2024-12-26  ...      NaN
+2566 2024-12-27  ...      NaN
+2567 2024-12-30  ...      NaN
+2568 2024-12-31  ...      NaN
+
+[5 rows x 17 columns]
+
+LGBM INFO:
+Num Features: 10
+Feature Names: ['Column_0', 'Column_1', 'Column_2', 'Column_3', 'Column_4', 'Column_5', 'Column_6', 'Column_7', 'Column_8', 'Column_9']
+Prediction with 7 features FAILED: The number of features in data (7) is not the same as it was in training data (10).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
